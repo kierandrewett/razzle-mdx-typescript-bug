@@ -1,17 +1,10 @@
-# MDX + Razzle
+# Razzle MDX + Typescript bug
 
-## How to use
-
-<!-- START install generated instructions please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN yarn update-examples TO UPDATE -->Create and start the example:
+### Steps to reproduce:
 
 ```bash
-npx create-razzle-app --example with-mdx with-mdx
-
-cd with-mdx
-yarn start
+$ git clone https://github.com/EnderDev/razzle-mdx-typescript-bug
+$ cd razzle-mdx-typescript-bug
+$ yarn
+$ yarn start
 ```
-<!-- END install generated instructions please keep comment here to allow auto update -->
-
-
-[See documentation](https://mdxjs.com/getting-started/razzle)
