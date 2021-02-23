@@ -1,0 +1,26 @@
+{
+  "name": "razzle-examples-with-mdx",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "razzle start",
+    "build": "razzle build",
+    "test": "razzle test --env=jsdom",
+    "start:prod": "NODE_ENV=production node build/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "razzle-plugin-typescript": "^3.3.13",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "remark-emoji": "^2.1.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "razzle": "^3.3.13",
+    "razzle-plugin-mdx": "latest"
+  }
+}
